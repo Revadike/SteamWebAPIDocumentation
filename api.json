@@ -4792,6 +4792,12 @@
                     "type": "bool",
                     "optional": true,
                     "description": ""
+                },
+                {
+                    "name": "timestamp",
+                    "type": "uint64",
+                    "optional": true,
+                    "description": ""
                 }
             ]
         },
