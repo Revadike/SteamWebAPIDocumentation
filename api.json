@@ -2694,6 +2694,7 @@
                         "Miscategorized",
                         "BypassingProfanityFilter",
                         "BulkDeletion",
+                        "Malware",
                         "MAX"
                     ]
                 },
@@ -5858,6 +5859,7 @@
                         "Miscategorized",
                         "BypassingProfanityFilter",
                         "BulkDeletion",
+                        "Malware",
                         "MAX"
                     ]
                 },
@@ -6065,6 +6067,7 @@
                         "Miscategorized",
                         "BypassingProfanityFilter",
                         "BulkDeletion",
+                        "Malware",
                         "MAX"
                     ]
                 },
@@ -12843,6 +12846,7 @@
                         "Miscategorized",
                         "BypassingProfanityFilter",
                         "BulkDeletion",
+                        "Malware",
                         "MAX"
                     ]
                 },
@@ -23765,6 +23769,7 @@
                         "Miscategorized",
                         "BypassingProfanityFilter",
                         "BulkDeletion",
+                        "Malware",
                         "MAX"
                     ]
                 },
@@ -47633,6 +47638,12 @@
                     "type": "uint32",
                     "optional": true,
                     "description": "What the version of our token should be"
+                },
+                {
+                    "name": "caller_version",
+                    "type": "uint32",
+                    "optional": true,
+                    "description": ""
                 }
             ]
         },
